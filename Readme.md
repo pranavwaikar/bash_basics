@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=zWVV31NYi1U&feature=youtu.be&list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_&t=1885
-The shell scripts are interpreted. Not compiled.
+
+* The shell scripts are interpreted. Not compiled.
 
 * Different shells: cat /etc/shells
 * Locate bash : which bash
@@ -128,7 +129,7 @@ specified.
 * trap command can not catch sigkill & sigstop
 * kill command: kill SIGKILL PID OR kill -9 PID
 
-# DEBUG
+# debug.sh
 * you can use 'bash -x file.sh' for more verbose output 
 * you can write at the top like - '#!/bin/bash -x'
 * you can write 'set -x' in bash file to start debugging at that point
